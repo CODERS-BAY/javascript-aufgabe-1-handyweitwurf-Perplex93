@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Black+And+White+Picture&display=swap');
+body{
+    font-family: 'Black And White Picture', sans-serif;
+    background-color: green;
+}
+
+h1#seitentitel{
+    text-align: center;
+    font-size: 60px;
+}
+
+img#hintergrundErde{
+    width: 100%;
+    height: auto;
+    border: 5px solid red;
+}
+
+img#monster{
+    width: 30%;
+}
+
+img#handy{
+    width: 20%;
+}
