@@ -5,21 +5,33 @@ body{
     background-color: green;
 }
 
+section#background{
+    background-image: url(/img/background-erde.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    max-width: 800px;
+    justify-content: center;
+    height: 600px;
+}
+
 h1#seitentitel{
     text-align: center;
     font-size: 60px;
 }
 
-img#hintergrundErde{
-    width: 100%;
-    height: auto;
-    border: 5px solid red;
+div#divMonster{
+    max-width: 50%;
+    max-height: 100%;
+    margin-left: auto;
 }
 
 img#monster{
-    width: 30%;
+    width: 20%;
 }
 
 img#handy{
-    width: 20%;
+    width: 10%;
+    padding-left: 700px;
+    padding-top: 200px;
 }
