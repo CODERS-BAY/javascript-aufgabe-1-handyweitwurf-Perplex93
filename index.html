@@ -9,17 +9,31 @@
 <body>
     <h1 id="seitentitel">Monster-Handyweitwurf</h1>
     <main>
-        <article>
+        <article>            
+            <section id="waehleHintergrund">
+                <input  type="radio" name="location" class="location" onclick="fallbeschleunigung('erde')">Erde
+                <input type="radio" name="location" class="location"  onclick="fallbeschleunigung('mond')">Mond
+                <input type="radio" name="location" class="location"  onclick="fallbeschleunigung('mars')">Mars
+                <input type="radio" name="location" class="location" onclick="fallbeschleunigung('jupiter')">Jupiter
+
+            </section>
             <section id="background">
-                <div id="divMonster">
-                    <img id="monster" src="/img/monster.png" alt="">
-                </div>
-                <div>
+                <button id="start" onclick="gamestart()">Start</button>
+                <button id="reset"onclick="gamereset()">Reset</button>
+                <form id="versucheForm" action="" method="POST" name="versuche">
+                    <input id="versucheInput" type="text" name="aktuell" value="" readonly="">
+                </form>
+                <form id="punkteForm" action="" method="POST" name="punkte">
+                    <input id="punkteInput" type="text" name="punkt" value="Punkte: 0" readonly="">
+                </form>
+                <div id="divMonsterHandy">
+                    <img id="monster" src="/img/monster.png" alt="" >
                     <img id="handy" src="/img/handy.png" alt="">
                 </div>
             </section>
+
         </article>
     </main>
-    
+<script language="javascript" type="text/javascript" src="handyweitwurf.js"></script>    
 </body>
 </html>

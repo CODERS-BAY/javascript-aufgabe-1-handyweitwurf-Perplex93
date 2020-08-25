@@ -5,14 +5,32 @@ body{
     background-color: green;
 }
 
-section#background{
+main{
+
+}
+
+
+#background{
     background-image: url(/img/background-erde.webp);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: contain;
-    max-width: 800px;
-    justify-content: center;
+    background-size: cover;
     height: 600px;
+}
+
+#punkteForm{
+    display: flex;
+    justify-content: flex-end;
+    visibility: hidden;
+}
+
+#punkteInput{
+    font-family: 'Black And White Picture', sans-serif;
+    width: 6rem;
+    font-size: 1.5rem;
+    background-color: seagreen;
+    border: 2px groove black;
+    margin-top: -2.3rem;
 }
 
 h1#seitentitel{
@@ -20,18 +38,60 @@ h1#seitentitel{
     font-size: 60px;
 }
 
-div#divMonster{
-    max-width: 50%;
-    max-height: 100%;
-    margin-left: auto;
+#divMonsterHandy{
+  margin-top: 2rem;
+  width: 100%;
+  height: 100%;
+}
+#divHandy{
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    height: 100%;
 }
 
-img#monster{
-    width: 20%;
+#monster{
+    position: relative;
+    width: 8rem;
+    visibility: hidden;
+    transition: all 1s linear;
 }
 
-img#handy{
-    width: 10%;
-    padding-left: 700px;
-    padding-top: 200px;
+#handy{
+    left: 45rem;
+    top: 10rem;
+    width: 5%;
+    padding-top: 15rem;
+}
+
+#waehleHintergrund{
+    text-align: center;
+}
+
+#start,#reset{
+    width: 8rem;
+    height: 2rem;
+    margin-left: 3rem;
+    margin-top: 2rem;
+    background-color: seagreen;
+    border: 2px groove black;
+}
+#reset{
+    visibility: hidden;
+}
+
+#versucheInput{
+    width: 2rem;
+    height: 2rem;
+    font-size: 2.2rem;
+    text-align: center;
+    background-color: seagreen;
+    border: 2px groove black;
+}
+
+#versucheForm{
+    display: flex;
+    justify-content: center;
+    margin-top: -2.3rem;
+    visibility: hidden;
 }
