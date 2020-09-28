@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Black+And+White+Picture&display=swap');
+body{
+    font-family: 'Black And White Picture', sans-serif;
+    background-color: green;
+}
+
+main{
+
+}
+
+
+#background{
+    background-image: url(/img/background-erde.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 600px;
+}
+
+#punkteForm{
+    display: flex;
+    justify-content: flex-end;
+    visibility: hidden;
+}
+
+#punkteInput{
+    font-family: 'Black And White Picture', sans-serif;
+    width: 6rem;
+    font-size: 1.5rem;
+    background-color: seagreen;
+    border: 2px groove black;
+    margin-top: -2.3rem;
+}
+
+h1#seitentitel{
+    text-align: center;
+    font-size: 60px;
+}
+
+#divMonsterHandy{
+  margin-top: 2rem;
+  width: 100%;
+  height: 100%;
+}
+#divHandy{
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    height: 100%;
+}
+
+#monster{
+    position: relative;
+    width: 8rem;
+    visibility: hidden;
+    transition: all 1s linear;
+}
+
+#handy{
+    left: 45rem;
+    top: 10rem;
+    width: 5%;
+    padding-top: 15rem;
+}
+
+#waehleHintergrund{
+    text-align: center;
+}
+
+#start,#reset{
+    width: 8rem;
+    height: 2rem;
+    margin-left: 3rem;
+    margin-top: 2rem;
+    background-color: seagreen;
+    border: 2px groove black;
+}
+#reset{
+    visibility: hidden;
+}
+
+#versucheInput{
+    width: 2rem;
+    height: 2rem;
+    font-size: 2.2rem;
+    text-align: center;
+    background-color: seagreen;
+    border: 2px groove black;
+}
+
+#versucheForm{
+    display: flex;
+    justify-content: center;
+    margin-top: -2.3rem;
+    visibility: hidden;
+}
